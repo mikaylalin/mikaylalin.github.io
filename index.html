@@ -1,10 +1,10 @@
 <style>
-	img{
+	.project_pic{
 		width:300px;
 		height: 200px;
 		text-align: left;
 	}
-	img profile{
+	.profile{
 		width: 300px;
 		height: 300px;
 		text-align: left;
@@ -28,6 +28,11 @@
 		grid-template-columns: repeat(1,1fr);
 		grid-template-rows: auto;
 		grid-gap: 70px;
+	}
+	.clearfix::after{
+		content: "";
+		clear: both;
+		display: table;
 	}
 	
 	</style>
@@ -54,7 +59,7 @@
 				<div class="section">
 					<header>
 						<div class="header-pic">
-							<img class="portrait" src="images/Mikayla.jpg">
+							<img class="profile" src="images/Mikayla.jpg">
 						</div>
 						<div class="header-text">
 							<p id="pre-h1">Hello World,</p>
@@ -66,7 +71,7 @@
 					<div class="area-text">
 						<h3>DESIGN</h3>
 					</div>
-					<div class="design-work">
+					<div class="work">
 						<div class="work_cont">
 							<div class="img-box">
 								<a href="https://medium.com/@ml953/spotify-case-study-my-friends-say-i-only-listen-to-the-same-songs-b079141b20e3"><img class="project_pic" src="images/spotify.PNG" alt="Spotify Case Study"></a>
@@ -101,7 +106,7 @@
 					<div class="area-text">
 						<h3>PRODUCT MANAGEMENT</h3>
 					</div>
-					<div class="product-management-work">
+					<div class="work">
 						<div class="work_cont">
 							<div class="img-box">
 								<a href="https://www.cornelldti.org/projects/zing"><img class="project_pic" src="images/zing-lsc.png" alt="Zing-LSC"></a>
