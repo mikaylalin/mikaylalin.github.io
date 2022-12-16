@@ -43,6 +43,13 @@ header{
     background-color: #BD99E7;
     border-radius: 12px;
 }
+.img-box{
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 60%;
+    height: auto;
+}
 .proj-brief{
     padding-left: 30px;
     display: inline-block;
