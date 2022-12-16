@@ -34,7 +34,7 @@ header{
     grid-template-rows: auto;
     grid-gap: 70px;
 }
-.clearfix::after{
+#clearfix::after{
     content: "";
     clear: both;
     display: table;
